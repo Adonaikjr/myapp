@@ -8,11 +8,10 @@ export const Container = styled.button`
 font-size: 22px;
 font-weight: 500;
 line-height: 24px;
-letter-spacing: 0em;
 text-align: center;
-
+color: ${({theme}) => theme.COLORS.BACKGROUND_900};
     :hover {
     box-shadow: 0 1rem 3rem 0 rgba(0,0,0,0.24),0 5rem 5rem 0 rgba(0,0,0,0.19);
-    border-left: solid 10px;
+    border-left: solid 10px ${({theme })=>theme.COLORS.BACKGROUND_700};
 }
 `

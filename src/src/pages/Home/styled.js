@@ -1,16 +1,17 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    border: solid red;
+
     width: 100%;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 `
 export const About = styled.div`
-//border: solid red;
-border-radius: 8px;
+border:  outset 1px ${({theme})=> theme.COLORS.BACKGROUND_700};
+
 box-shadow: 0rem 1rem 10rem;
 //background: ${({theme})=> theme.COLORS.BACKGROUND_900};
 background-image: linear-gradient(to bottom right,
@@ -18,18 +19,23 @@ background-image: linear-gradient(to bottom right,
     ${({theme})=> theme.COLORS.BACKGROUND_700},
     ${({theme})=> theme.COLORS.BACKGROUND_600},
     ${({theme})=> theme.COLORS.BACKGROUND_500});
-height: 60%;
-width: 50%;
+height: 70%;
+width: 60%;
+//border-bottom: solid 10px ${({theme}) => theme.COLORS.BACKGROUND_800};
+//border-right: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_700};
+//border-top: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_800};
 display: flex;
 flex-direction: column;
-justify-content: space-evenly;
+justify-content: space-around;
+border-radius: 5px;
 `
 export const AboutText = styled.p`
 color: ${({theme}) => theme.COLORS.BACKGROUND_600};
 display:flex;
+margin-top: 12px;
 border-bottom: solid ${({theme}) => theme.COLORS.BACKGROUND_500};
 font-family: Roboto;
-font-size: 42px;
+font-size: 32px;
 font-weight: 700;
 line-height: 50px;
 margin-left: 12px;
@@ -46,6 +52,7 @@ display: flex;
 justify-content: space-between;
 align-items: center;
 margin-right: 12px;
+margin-top:12px;
 `
 
 
@@ -53,8 +60,21 @@ margin-right: 12px;
 export const BoxB = styled.div`
 //border: solid;
     margin-top: 12px;
-    height: 90%;
+    height: 80%;
     display: flex;
-    justify-content: space-evenly;
+    flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+
+`
+
+export const BoxContentB = styled.div`
+height: 100%;
+width: 100%;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+
+
+
 `

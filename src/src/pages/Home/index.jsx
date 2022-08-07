@@ -15,6 +15,7 @@ export class Home extends React.Component{
     return(
         <Container>
             <Header/>
+            <Animations/>
             <About>
                 <BoxA>
                     <AboutText>Projetos</AboutText>
@@ -22,14 +23,10 @@ export class Home extends React.Component{
                         <BiShareAlt color='#90E0EF' size={30} /> 
                         <BiSearch color='#90E0EF' size={30}/>
                     </BoxContentA>
+                    <MacHeader/>
                 </BoxA>
-                <BoxB>
-                    <BoxContentB>
-                        <MacHeader/>
-                    </BoxContentB>
-                </BoxB>
             </About>
-            <Animations/>
+            
         </Container>
     )
    }

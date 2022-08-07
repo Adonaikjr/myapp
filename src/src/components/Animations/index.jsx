@@ -4,32 +4,29 @@ import React from "react";
 export function Animations(){
     return(
         <Container>
-            <div class="container">
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
+            <div className="container">
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+
+            <div className="ball"></div>
             </div>
-            <div class="container">
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
+            <div className="container">
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+
             </div>
-            <div class="container">
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
-            <div class="ball"></div>
+            <div className="container">
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+            <div className="ball"></div>
+
             </div>
         </Container>
     )}

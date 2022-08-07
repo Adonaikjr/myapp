@@ -5,9 +5,10 @@ export const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
+
     justify-content: center;
     align-items: center;
-    
+    flex-wrap: wrap;
 `
 export const About = styled.div`
 border:  outset 1px ${({theme})=> theme.COLORS.BACKGROUND_700};
@@ -20,7 +21,7 @@ background-image: linear-gradient(to bottom right,
     ${({theme})=> theme.COLORS.BACKGROUND_600},
     ${({theme})=> theme.COLORS.BACKGROUND_500});
 height: 70%;
-width: 60%;
+width: 50rem;
 //border-bottom: solid 10px ${({theme}) => theme.COLORS.BACKGROUND_800};
 //border-right: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_700};
 //border-top: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_800};
@@ -28,6 +29,8 @@ display: flex;
 flex-direction: column;
 justify-content: space-around;
 border-radius: 5px;
+flex-wrap: wrap;
+align-items: center;
 `
 export const AboutText = styled.p`
 color: ${({theme}) => theme.COLORS.BACKGROUND_600};
@@ -42,9 +45,10 @@ margin-left: 12px;
 `
 
 export const BoxA = styled.div`
-
+flex-wrap: wrap;
     display: flex;
     justify-content: space-between;
+    //border:solid
 `
 export const BoxContentA = styled.div`
 width: 5rem;
@@ -53,17 +57,18 @@ justify-content: space-between;
 align-items: center;
 margin-right: 12px;
 margin-top:12px;
+//border: solid;
 `
 
 
 
 export const BoxB = styled.div`
-//border: solid;
+border: solid;
     margin-top: 12px;
     height: 80%;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     align-items: center;
 
 `
@@ -78,3 +83,4 @@ flex-wrap: wrap;
 
 
 `
+

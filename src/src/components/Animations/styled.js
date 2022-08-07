@@ -4,12 +4,17 @@ export const Container = styled.div`
 
 display: flex;
 flex-direction: column;
-height: 70%;
 flex-wrap: wrap;
+
+margin-left: 5px;
+margin-right: 5px;
 .container {
 
-margin-left: 24px;
-margin-top: 12px;
+width: 6rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+//border: solid;
 }
 
 .ball {

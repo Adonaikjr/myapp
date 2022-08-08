@@ -1,6 +1,5 @@
 import { Button } from "../Button";
 import { Container, Imagebox, ContentIcons, LinksButton } from "./styled";
-import perfil from '../../img/profile.png'
 import { IoLogoLinkedin, IoLogoGithub } from 'react-icons/io'
 import { Link } from "react-router-dom";
 import profile from '../../img/profile.webp'

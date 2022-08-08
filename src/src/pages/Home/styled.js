@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import fundomac from '../../img/fundoios.jpeg'
+import fundomac from '../../img/fundoios.webp'
 export const Container = styled.div`
 
     width: 100%;

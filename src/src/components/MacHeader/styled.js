@@ -7,8 +7,8 @@ export const Container = styled.div`
     display: flex;
     justify-content: space-around;
     align-items: center;
-background: ${({theme}) => theme.COLORS.BACKGROUND_700};
-border-radius: 5px;
+//background: ${({theme}) => theme.COLORS.BACKGROUND_700};
+background-color: #000;
 flex-wrap: wrap;
 `
 export const Text = styled.p`

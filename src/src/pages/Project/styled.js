@@ -1,8 +1,7 @@
 import styled from "styled-components";
-import fundomac from '../../img/fundoios.jpeg'
-export const Container = styled.div`
 
-    width: 100%;
+export const Container = styled.div`
+width: 100%;
     height: 100vh;
     display: flex;
 
@@ -25,16 +24,16 @@ width: 50rem;
 //border-bottom: solid 10px ${({theme}) => theme.COLORS.BACKGROUND_800};
 //border-right: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_700};
 //border-top: solid 3px ${({theme}) => theme.COLORS.BACKGROUND_800};
-//display: flex;
-//flex-direction: column;
-//justify-content: space-around;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
 border-radius: 5px;
 flex-wrap: wrap;
 align-items: center;
 `
 export const AboutText = styled.p`
 color: ${({theme}) => theme.COLORS.BACKGROUND_600};
-//display:flex;
+display:flex;
 margin-top: 12px;
 border-bottom: solid ${({theme}) => theme.COLORS.BACKGROUND_500};
 font-family: Roboto;
@@ -45,11 +44,10 @@ margin-left: 12px;
 `
 
 export const BoxA = styled.div`
-width: 100%;
-justify-content: space-between;
-   // border:solid;
+flex-wrap: wrap;
     display: flex;
-
+    justify-content: space-between;
+    //border:solid
 `
 export const BoxContentA = styled.div`
 width: 5rem;
@@ -64,17 +62,14 @@ margin-top:12px;
 
 
 export const BoxB = styled.div`
-//border: solid;
-
+border: solid;
     margin-top: 12px;
     height: 80%;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    background-image: url( ${fundomac} );
-    background-repeat: no-repeat;
-    background-size: cover;
+
 `
 
 export const BoxContentB = styled.div`
@@ -87,4 +82,3 @@ flex-wrap: wrap;
 
 
 `
-

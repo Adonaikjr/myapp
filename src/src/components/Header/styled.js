@@ -15,10 +15,11 @@ button{
     background-color: ${({theme}) => theme.COLORS.BACKGROUND_600};
     opacity: 0.4;
     margin-right: 2px;
-    height: 10rem;
+    height: 3.1rem;
     flex-wrap: wrap;
 
 }
+
 
 `
 
@@ -64,8 +65,6 @@ img{
 }
 background-color: ${({theme}) => theme.COLORS.BACKGROUND_600};
 
-
-
 `
 
 export const ContentIcons = styled.div`
@@ -73,4 +72,11 @@ width: 100%;
 display: flex;
 justify-content: space-evenly;
     
+`
+
+export const LinksButton = styled.div`
+border: solid;
+display: flex;
+flex-direction: column;
+
 `

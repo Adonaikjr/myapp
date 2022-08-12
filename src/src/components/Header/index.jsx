@@ -25,11 +25,7 @@ export function Header(){
             <Button title='Projetos'/>
         </Link>
 
-        <Link to='/'>
-            <Button title='Labs'/>
-        </Link>
-
-        <Link to='/'>
+        <Link to='/contact'>
             <Button title='Contact'/>
         </Link>
 

@@ -72,7 +72,7 @@ export const BoxB = styled.div`
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    background-image: url( ${fundomac} );
+    
     background-repeat: no-repeat;
     background-size: cover;
 `
